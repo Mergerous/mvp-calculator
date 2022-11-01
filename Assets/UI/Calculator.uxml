@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="panel" style="flex-grow: 1; justify-content: center; display: flex; visibility: visible; margin-left: 50px; margin-right: 50px; margin-top: 50px; margin-bottom: 50px;">
+        <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="input-field" style="font-size: 40px;" />
+        <ui:Button text="Result" display-tooltip-when-elided="true" name="result-button" style="font-size: 40px;" />
+    </ui:VisualElement>
+</ui:UXML>

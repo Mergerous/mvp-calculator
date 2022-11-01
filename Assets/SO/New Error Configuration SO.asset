@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d59553675a2c7940b90220c8679b808, type: 3}
+  m_Name: New Error Configuration SO
+  m_EditorClassIdentifier: 
+  _errorText: '<b><size=200%>Sorry</size></b>
+
+    Our programmers are already dealing
+    with the problem, the manager at this time beats them with a whip, while the
+    director is hearing his hair out'
