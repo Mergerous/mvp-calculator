@@ -4,8 +4,8 @@ namespace Scripts.Interfaces
 {
     public interface IErrorContext
     {
-        event Action ErrorOpen;
+        event Action ErrorShown;
         void Continue();
-        void Quit();
+        void Cancel();
     }
 }

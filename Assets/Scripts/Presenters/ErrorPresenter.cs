@@ -16,7 +16,7 @@ namespace Scripts.Presenters
 
             _view.ContinueButtonClicked += Continue;
             _view.QuitButtonClicked += Quit;
-            _context.ErrorOpen += OpenDialog;
+            _context.ErrorShown += OpenDialog;
         }
 
         private void Continue()
@@ -27,7 +27,7 @@ namespace Scripts.Presenters
         private void Quit()
         {
             _view.Close();
-            _context.Quit();
+            _context.Cancel();
             _model.Quit();
         }
         private void OpenDialog()
