@@ -22,7 +22,7 @@ namespace Scripts.Presenters
             _model.ErrorOccured += ShowError;
 
             _context.Continued += Continue;
-            _context.OnQuit += Quit;
+            _context.Quit += Quit;
             _context.Started += _view.Open;
         }
 

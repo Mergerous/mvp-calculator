@@ -6,13 +6,13 @@ namespace Scripts.Contexts
     public class Context : ICalculatorContext, IErrorContext
     {
         public event Action Started;
-        public event Action OnQuit;
+        public event Action Quit;
         public event Action Continued;
-        public event Action ErrorOpen;
+        public event Action ErrorShown;
 
         public void Start() => Started?.Invoke();
         public void Continue() => Continued?.Invoke();
-        public void Quit() => OnQuit?.Invoke();
-        public void ShowError() => ErrorOpen?.Invoke();
+        public void Cancel() => Quit?.Invoke();
+        public void ShowError() => ErrorShown?.Invoke();
     }
 }
